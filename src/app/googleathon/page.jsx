@@ -1,5 +1,5 @@
-import { Box, Typography, Container } from '@mui/material';
-import HeroTeam from '@/assets/notgpl/team.jpg';
+import { Box, Typography, Container, Grid } from '@mui/material';
+import HeroTeam from '@/assets/notgpl/snsce.jpg';
 import Brand from '@/assets/graphics/logo_clouds.png';
 import { ErrorBoundary, HeroHeader, GoogleathonHero } from '@/components/client';
 import { FAQ } from '@/components/client';
@@ -32,16 +32,16 @@ const GoogleathonPage = () => {
 						About the Hackathon
 					</Typography>
 					<Typography color="text.primary" sx={{ py: 2 }} variant="body1">
-						The Googleathon Hackathon is an opportunity for students to collaborate and innovate by designing and
+						The Googleathon 2.0 Hackathon is an opportunity for students to collaborate and innovate by designing and
 						implementing solutions to real-world problems with a focus on creating a positive impact. This challenge
 						encourages you to apply your programming, problem-solving, and teamwork skills to develop solutions that
 						can make a difference for the greater good.
 					</Typography>
 					<Typography color="text.primary" sx={{ py: 2 }} variant="body1">
-						The hackathon will be held on November 20th and 21st, 2023. The event is open to all undergraduate students
+						The hackathon will be held on <strong>November 20th and 21st, 2023</strong>. The event is open to all undergraduate students
 						from all disciplines. You can participate as an individual or as a team of up to 4 members. The hackathon
-						will be conducted virtually, and the participants will have access to various resources and mentors to help
-						them throughout the event.
+						will be conducted offline, and the participants will have access to various resources and mentors to help
+						them throughout the event. 
 					</Typography>
 				</Container>
 			</section>
@@ -52,8 +52,48 @@ const GoogleathonPage = () => {
 				<Container sx={{ py: 8, lineHeight: '2em' }} maxWidth="md">
 					<Typography color="text.primary" sx={{ py: 2 }} variant="body1">
 						There will be exciting prizes for the top 3 teams. The winners will also get a chance to present their
-						solutions to industry experts and get feedback on their work.
+						solutions to industry experts and get feedback on their work. All participants will receive a certificate 
+						recognized by Google Developer Students Club - SNS College of Engineering.
 					</Typography>
+					<Grid container spacing={3}>
+						<Grid item xs={4}>
+							<div style={{ border: '2px solid yellow', borderRadius: '20px', padding: '10px' }}> 
+								<Typography variant="h6" component="div">
+									Winner
+								</Typography>
+								<Typography variant="body1" component="div">
+									Rs. 5000
+								</Typography>
+							</div>
+						</Grid>
+						<Grid item xs={4}>
+							<div style={{ border: '3px solid green', borderRadius: '20px', padding: '10px' }}>
+								<Typography variant="h6" component="div">
+									First Runner Up
+								</Typography>
+								<Typography variant="body1" component="div">
+									Rs. 2500
+								</Typography>
+							</div>
+						</Grid>
+						<Grid item xs={4}>
+							<div style={{ border: '2px solid orange', borderRadius: '20px', padding: '10px' }}>
+								<Typography variant="h6" component="div">
+									Second Runner Up
+								</Typography>
+								<Typography variant="body1" component="div">
+									Rs. 1250
+								</Typography>
+							</div>
+						</Grid>
+						<Grid item xs={12}>
+							<div style={{ border: '2px solid white', borderRadius: '20px', padding: '10px' }}>
+								<Typography variant="h6" component="div" style={{ textAlign: 'center' }}>
+									Participation Certificates + Goodies
+								</Typography>
+							</div>
+						</Grid>
+					</Grid>
 				</Container>
 			</section>
 
@@ -63,25 +103,27 @@ const GoogleathonPage = () => {
 				<Container sx={{ py: 8, lineHeight: '2em' }} maxWidth="md">
 					<Typography color="text.primary" sx={{ py: 2 }} variant="body1">
 						Registration for the Googleathon Hackathon is now open. To register, please fill out the registration form
-						by November 18th, 2023. You can participate as an individual or as a team of up to 4 members.
+						by <strong>November 19th, 2023.</strong> You can participate as an individual or as a team of up to 4 members.
 					</Typography>
 					<Typography color="text.primary" sx={{ py: 2 }} variant="body1">
-						<a href="https://forms.gle/xxxxxxxxxxxxxxx" target="_blank" rel="noopener noreferrer">
-							Register Now
+						<a href="https://forms.gle/akLGcTLd4Sd9iM3p9" 
+						style={{ 
+							color: 'white', 
+							fontSize: '20px', 
+							textDecoration: "none", 
+							border: '2px solid white', 
+							borderRadius: '10px', 
+							padding: '10px'
+						}}  
+						target="_blank" 
+						rel="noopener noreferrer" >
+						Register Now
 						</a>
 					</Typography>
 				</Container>
 			</section>
 
-			{/* team list */}
-			<section id="meet-the-team">
-				<HeroHeader text="Meet the Organizers" picture={HeroTeam} maxWidth="md" />
-				<Container sx={{ py: 8, px: 0 }} maxWidth="md">
-					<ErrorBoundary>
-						{/* TODO: Add organizer details */}
-					</ErrorBoundary>
-				</Container>
-			</section>
+			
 			<section id="faq">
 				{/* opting to keep FAQ in this page to keep it more visible */}
 				<Container sx={{ py: 8, lineHeight: '2em' }} maxWidth="md">

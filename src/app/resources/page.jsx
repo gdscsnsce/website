@@ -29,7 +29,7 @@ const ResourcesPage = () => {
 						image={workshopImage}
 					/>
 				</Grid>
-				<Grid item>
+				{/* <Grid item>
 					<ImageLinkCard
 						title="Logo Download"
 						description="Download our bracket logo in crisp quality!"
@@ -38,7 +38,7 @@ const ResourcesPage = () => {
 						height="auto"
 						image={Brand}
 					/>
-				</Grid>
+				</Grid> */}
 				{/* <Grid item>
 						<ImageLinkCard
 							title="Tech tips"

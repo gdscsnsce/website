@@ -28,10 +28,10 @@ export const pages = [
 		name: 'Tech Tips',
 		path: '/resources/tips',
 	},
-	{
-		name: 'Projects',
-		path: '/projects',
-	},
+	// {
+	// 	name: 'Projects',
+	// 	path: '/projects',
+	// },
 	{
 		name: 'Events',
 		path: '/events',

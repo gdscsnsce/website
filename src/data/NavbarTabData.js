@@ -36,4 +36,8 @@ export const pages = [
 		name: 'Events',
 		path: '/events',
 	},
+	{
+		name: 'Googleathon',
+		path: '/googleathon',
+	}
 ];

@@ -4,7 +4,7 @@
  * Update as needed when adding new social media or removing old ones
  * There is probably a better way to do this but this works for now :)
  */
-import { Email, Facebook, GitHub, Google, Instagram, LinkedIn, YouTube } from '@mui/icons-material';
+import { Email, Facebook, GitHub, Google, Instagram, LinkedIn, YouTube, WhatsApp } from '@mui/icons-material';
 import { createSvgIcon } from '@mui/material';
 import { NamedIconButton } from '@/components/server';
 
@@ -54,15 +54,15 @@ export const GitHubButton = props => (
 	/>
 );
 
-export const FacebookButton = props => (
-	<NamedIconButton
-		title="Facebook"
-		tooltip="Visit our Facebook"
-		icon={<Facebook />}
-		href="https://www.facebook.com/gdscuoftmississauga"
-		{...props}
-	/>
-);
+// export const FacebookButton = props => (
+// 	<NamedIconButton
+// 		title="Facebook"
+// 		tooltip="Visit our Facebook"
+// 		icon={<Facebook />}
+// 		href="https://www.facebook.com/gdscuoftmississauga"
+// 		{...props}
+// 	/>
+// );
 
 export const LinkedInButton = props => (
 	<NamedIconButton
@@ -92,7 +92,7 @@ export const DiscordButton = props => (
 	<NamedIconButton
 		title="Whatsapp Group"
 		tooltip="Join our Whatsapp Group"
-		icon={<DiscordIcon />}
+		icon={<WhatsApp />}
 		href="https://whatsapp.com/channel/0029VaAO91PDeONCPEc8sD0G"
 		{...props}
 	/>

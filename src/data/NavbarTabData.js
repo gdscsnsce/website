@@ -24,18 +24,18 @@ export const pages = [
 		name: 'Workshop Archive',
 		path: '/resources/workshops',
 	},
-	{
-		name: 'Tech Tips',
-		path: '/resources/tips',
-	},
+	// {
+	// 	name: 'Tech Tips',
+	// 	path: '/resources/tips',
+	// },
 	// {
 	// 	name: 'Projects',
 	// 	path: '/projects',
 	// },
-	{
-		name: 'Events',
-		path: '/events',
-	},
+	// {
+	// 	name: 'Events',
+	// 	path: '/events',
+	// },
 	{
 		name: 'Googleathon',
 		path: '/googleathon',

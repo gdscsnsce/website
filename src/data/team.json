@@ -1,0 +1,68 @@
+{
+	"Organizer": [
+		{
+			"name": "Vishnuraj S",
+			"role": "Lead",
+			"picture": "giang.jpg"
+		},
+		{
+			"name": "Sunil N",
+			"role": "Co-lead",
+			"picture": "jackson.jpg"
+		}
+	],
+	"Team Lead": [
+		{
+			"name": "Sunil N",
+			"role": "AI & ML",
+			"picture": "michael.jpg"
+		},
+		{
+			"name": "Miruthyan Jayan S",
+			"role": "Cloud",
+			"picture": "jasleen.jpg"
+		},
+		{
+			"name": "Abinesh Jino S",
+			"role": "Web Dev",
+			"picture": "estelle.jpg"
+		},
+		{
+			"name": "Vigneshwar KS",
+			"role": "UI/UX Design",
+			"picture": "michael.jpg"
+		},
+		{
+			"name": "Joe Sachin",
+			"role": "Flutter",
+			"picture": "hammad.jpg"
+		},
+		{
+			"name": "Susma S",
+			"role": "Data Science",
+			"picture": "lujain.jpg"
+		},
+		{
+			"name": "Sruthi S",
+			"role": "WTM",
+			"picture": "leanne.jpg"
+		},
+		{
+			"name": "Sivakumar S",
+			"role": "Android",
+			"picture": "abdullah.jpg"
+		},
+		{
+			"name": "Yogeshwaran S",
+			"role": "Gen AI",
+			"picture": "ido.jpg"
+		}
+	],
+	"Advisor": [
+		{
+			"name": "Sumathi P",
+			"role": "Faculty Advisor",
+			"picture": "ahmed.jpg"
+		}
+	]
+}

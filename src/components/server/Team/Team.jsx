@@ -32,7 +32,7 @@ export const Team = ({ teamInfo, title }) => {
 						key={index}
 						name={teamMember.name}
 						role={teamMember.role}
-						picture={teamMember.picture ? `team/${teamMember.picture}` : null}
+						picture={teamMember.picture ? `${teamMember.picture}` : null}
 					/>
 				))}
 			</div>
@@ -62,7 +62,7 @@ const Person = ({ name, role, picture }) => {
 					height={110}
 				/>
 			) : (
-				<ProprietaryImage
+				<Image
 					src={picture}
 					// no alt text needed - picture already sufficiently described by the paragraph,
 					// so there is no need to repeat the information

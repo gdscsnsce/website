@@ -3,66 +3,66 @@
 		{
 			"name": "Vishnuraj S",
 			"role": "Lead",
-			"picture": "vishnu.jpg"
+			"picture": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2,f_auto,g_face,h_400,q_auto:good,w_400/v1/gcs/platform-data-dsc/events/WhatsApp%2520Image%25202023-08-12%2520at%25206.26.02%2520PM%2520%25281%2529_8qol7HN.jpeg"
 		},
 		{
 			"name": "Sunil N",
 			"role": "Co-lead",
-			"picture": "jackson.jpg"
+			"picture": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2,f_auto,g_face,h_200,q_auto:good,w_200/v1/gcs/platform-data-dsc/events/Picsart_23-09-03_11-53-25-986.png"
 		}
 	],
 	"Team Lead": [
 		{
 			"name": "Sunil N",
 			"role": "AI & ML",
-			"picture": "michael.jpg"
+			"picture": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2,f_auto,g_face,h_200,q_auto:good,w_200/v1/gcs/platform-data-dsc/events/Picsart_23-09-03_11-53-25-986.png"
 		},
 		{
 			"name": "Miruthyan Jayan S",
 			"role": "Cloud",
-			"picture": "jasleen.jpg"
+			"picture": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2,f_auto,g_face,h_200,q_auto:good,w_200/v1/gcs/platform-data-dsc/events/WhatsApp%2520Image%25202023-08-25%2520at%252012.10.51%2520AM.jpeg"
 		},
 		{
 			"name": "Abinesh Jino S",
 			"role": "Web Dev",
-			"picture": "estelle.jpg"
+			"picture": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-dsc/avatars/abinesh_jino_u.p.jpeg"
 		},
 		{
 			"name": "Vigneshwar KS",
 			"role": "UI/UX Design",
-			"picture": "michael.jpg"
+			"picture": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-dsc/featured_attendees/IMG-20230617-WA0000_b54UvUu.jpg"
 		},
 		{
 			"name": "Joe Sachin",
 			"role": "Flutter",
-			"picture": "hammad.jpg"
+			"picture": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-dsc/avatars/joe_sachin_j.jpg"
 		},
 		{
 			"name": "Susma S",
 			"role": "Data Science",
-			"picture": "lujain.jpg"
+			"picture": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-dsc/avatars/susma_s_LRzx3BV.jpg"
 		},
 		{
 			"name": "Sruthi S",
 			"role": "WTM",
-			"picture": "leanne.jpg"
+			"picture": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-dsc/avatars/sruthi_sivakumar.jpg"
 		},
 		{
 			"name": "Sivakumar S",
 			"role": "Android",
-			"picture": "abdullah.jpg"
+			"picture": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-dsc/avatars/sivakumar_b.JPG"
 		},
 		{
 			"name": "Yogeshwaran S",
 			"role": "Gen AI",
-			"picture": "ido.jpg"
+			"picture": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-dsc/avatars/yogeshwaran_singarasu.jpg"
 		}
 	],
 	"Advisor": [
 		{
 			"name": "Sumathi P",
 			"role": "Faculty Advisor",
-			"picture": "ahmed.jpg"
+			"picture": "https://media.licdn.com/dms/image/C5603AQG4NT_ku-gRZQ/profile-displayphoto-shrink_800_800/0/1640102121482?e=1705536000&v=beta&t=5_Ooo2ZWo3xXLLJ94_VDWeB750ds3SJB5Goelp72HDI"
 		}
 	]
 }

@@ -32,10 +32,10 @@ export const pages = [
 	// 	name: 'Projects',
 	// 	path: '/projects',
 	// },
-	// {
-	// 	name: 'Events',
-	// 	path: '/events',
-	// },
+	{
+		name: 'Events',
+		path: '/events',
+	},
 	{
 		name: 'Googleathon',
 		path: '/googleathon',

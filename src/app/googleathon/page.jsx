@@ -108,10 +108,10 @@ const GoogleathonPage = () => {
 					<Typography color="text.primary" sx={{ py: 2 }} variant="body1">
 						<a href="https://forms.gle/akLGcTLd4Sd9iM3p9" 
 						style={{ 
-							color: 'white', 
+							color: 'yellow', 
 							fontSize: '20px', 
 							textDecoration: "none", 
-							border: '2px solid white', 
+							border: '2px solid yellow', 
 							borderRadius: '10px', 
 							padding: '10px'
 						}}  

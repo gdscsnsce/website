@@ -7,7 +7,7 @@ import { Link, ConvertDate } from '@/components/server';
 
 import { getDescriptionFromStorage, useLocalStorage } from './useLocalStorage';
 
-const CHAPTER_API_URL = 'https://gdsc.community.dev/api/chapter/615/event';
+const CHAPTER_API_URL = 'https://gdsc.community.dev/api/chapter/3435/event';
 const EVENT_API_URL = 'https://gdsc.community.dev/api/event/';
 
 /**

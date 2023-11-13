@@ -5,7 +5,7 @@ import { Link } from '@/components/server';
 
 import { HeroLayout } from '@/layouts/HeroLayout';
 
-import bannerImage from '@/assets/notgpl/IMG_1045.jpg';
+import bannerImage from '@/assets/notgpl/past_googleathon_event.jpg';
 
 export const metadata = {
 	title: 'Events',

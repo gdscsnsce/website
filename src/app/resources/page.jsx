@@ -1,10 +1,11 @@
 import { Box, Grid, Typography } from '@mui/material';
 
-import Brand from '@/assets/graphics/logo_clouds.png';
+// import Brand from '@/assets/graphics/logo_clouds.png';
 import { FAQ, ImageLinkCard } from '@/components/client';
 import faq from '@/data/faq.json';
-import bannerImage from '@/assets/notgpl/IMG_4712.jpg';
-import workshopImage from '@/assets/notgpl/051A6228.jpg';
+import bannerImage from '@/assets/notgpl/googleathon.jpg';
+import gdscLogo from '@/assets/notgpl/GDSC_SNSCE_logo.jpeg';
+import workshopImage from '@/assets/notgpl/info-session.jpg';
 
 import { HeroLayout } from '@/layouts/HeroLayout';
 
@@ -17,13 +18,13 @@ export const metadata = {
  */
 const ResourcesPage = () => {
 	return (
-		<HeroLayout title={metadata.title} picture={bannerImage} height="20rem" position="bottom" id="resources">
+		<HeroLayout title={metadata.title} picture={gdscLogo} height="30rem" position="bottom" id="resources">
 			<Grid container justifyContent="space-between" spacing={2} alignItems="flex-start">
 				<Grid item>
 					<ImageLinkCard
 						title="Workshop Archive"
 						description="Check out our past workshops!"
-						alt="A man (Alexander Dean Cybulski) speaks at an event with a projector in the background."
+						alt="Glimpse of Our Googleathon 1.0 Hackathon."
 						href="/resources/workshops"
 						height="auto"
 						image={workshopImage}
@@ -31,12 +32,12 @@ const ResourcesPage = () => {
 				</Grid>
 				<Grid item>
 					<ImageLinkCard
-						title="Logo Download"
-						description="Download our bracket logo in crisp quality!"
-						alt="Google Developer Student Clubs UTM logo over a blue background with clouds"
-						href="/resources/logo-download"
+						title="Googleathon"
+						description="Registration for the Googleathon Hackathon is now open!"
+						alt="Googleathon Hackathon."
+						href="/googleathon"
 						height="auto"
-						image={Brand}
+						image={bannerImage}
 					/>
 				</Grid>
 				{/* <Grid item>

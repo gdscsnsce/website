@@ -7,7 +7,7 @@ import workshops from '@/data/workshops.json';
 
 import { ResourceLayout } from '@/layouts/ResourceLayout';
 
-import bannerImage from '@/assets/notgpl/051A6228.jpg';
+import bannerImage from '@/assets/notgpl/info-session.jpg';
 
 export const metadata = {
 	title: 'Workshop Archive',

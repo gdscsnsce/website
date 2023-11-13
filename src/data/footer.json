@@ -4,22 +4,14 @@
 			"URL": "https://whatsapp.com/channel/0029VaAO91PDeONCPEc8sD0G",
 			"external": true
 		},
-		"Logo download": {
-			"URL": "/resources/logo-download",
+		"Googleathon": {
+			"URL": "/googleathon",
 			"external": false
 		}
 	},
 	"Featured projects": {
-		"MCS PollVoting": {
-			"URL": "https://github.com/utmgdsc/PollVotingSystem",
-			"external": true
-		},
-		"SIGNify": {
-			"URL": "https://github.com/utmgdsc/SIGNify",
-			"external": true
-		},
-		"CourseOfAction": {
-			"URL": "https://github.com/utmgdsc/CourseOfAction",
+		"SNSCourseware Scraper": {
+			"URL": "https://github.com/linusaltacc/SNSCourseware-Scraper",
 			"external": true
 		}
 	}

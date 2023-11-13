@@ -20,16 +20,15 @@ const ResourcesPage = () => {
 	return (
 		<HeroLayout title={metadata.title} picture={gdscLogo} height="30rem" position="bottom" id="resources">
 			<Grid container justifyContent="space-between" spacing={2} alignItems="flex-start">
-				<Grid item>
+				{/* <Grid item>
 					<ImageLinkCard
 						title="Workshop Archive"
 						description="Check out our past workshops!"
 						alt="Glimpse of Our Googleathon 1.0 Hackathon."
 						href="/resources/workshops"
 						height="auto"
-						image={workshopImage}
-					/>
-				</Grid>
+						image={workshopImage} />
+				</Grid> */}
 				<Grid item>
 					<ImageLinkCard
 						title="Googleathon"
@@ -37,18 +36,17 @@ const ResourcesPage = () => {
 						alt="Googleathon Hackathon."
 						href="/googleathon"
 						height="auto"
-						image={bannerImage}
-					/>
+						image={bannerImage} />
 				</Grid>
 				{/* <Grid item>
-						<ImageLinkCard
-							title="Tech tips"
-							description="Linus from Linus Tech Tips is a GDSC UTM member! :) Check out his tips here!"
-							alt="" // todo
-							href="/resources/tips"
-							image={BannerImg}
-						/>
-				</Grid> */}
+<ImageLinkCard
+    title="Tech tips"
+    description="Linus from Linus Tech Tips is a GDSC UTM member! :) Check out his tips here!"
+    alt="" // todo
+    href="/resources/tips"
+    image={BannerImg}
+/>
+</Grid> */}
 			</Grid>
 
 			{/* opting to keep FAQ in this page to keep it more visible */}

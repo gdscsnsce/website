@@ -116,7 +116,7 @@ const GoogleathonPage = () => {
 					</Typography>
 					<Grid container spacing={3}>
 						<Grid item xs={4}>
-							<div style={{ border: '2px solid yellow', borderRadius: '20px', padding: '10px' }}> 
+							<div style={{ border: '2px solid aqua', borderRadius: '20px', padding: '10px' }}> 
 								<Typography variant="h6" component="div">
 									Winner
 								</Typography>
@@ -167,10 +167,10 @@ const GoogleathonPage = () => {
 					<Typography color="text.primary" sx={{ py: 2 }} variant="body1">
 						<a href="https://forms.gle/akLGcTLd4Sd9iM3p9" 
 						style={{ 
-							color: 'yellow', 
+							color: 'red', 
 							fontSize: '20px', 
 							textDecoration: "none", 
-							border: '2px solid yellow', 
+							border: '2px solid red', 
 							borderRadius: '10px', 
 							padding: '10px'
 						}}  

@@ -5,7 +5,6 @@ import { FAQ, ImageLinkCard } from '@/components/client';
 import faq from '@/data/faq.json';
 import bannerImage from '@/assets/notgpl/googleathon.jpg';
 import gdscLogo from '@/assets/notgpl/GDSC_SNSCE_logo.jpeg';
-import workshopImage from '@/assets/notgpl/info-session.jpg';
 
 import { HeroLayout } from '@/layouts/HeroLayout';
 

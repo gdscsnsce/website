@@ -162,10 +162,10 @@ const GoogleathonPage = () => {
 				<Container sx={{ py: 8, lineHeight: '2em' }} maxWidth="md">
 					<Typography color="text.primary" sx={{ py: 2 }} variant="body1">
 						Registration for the Googleathon Hackathon is now open. To register, please fill out the registration form
-						by <strong>November 19th, 2023.</strong> You can participate as an individual or as a team of up to 4 members.
+						by <strong>November 18th, 2023.</strong> You can participate as an individual or as a team of up to 4 members.
 					</Typography>
 					<Typography color="text.primary" sx={{ py: 2 }} variant="body1">
-						<a href="https://forms.gle/akLGcTLd4Sd9iM3p9" 
+						<a  
 						style={{ 
 							color: 'red', 
 							fontSize: '20px', 
@@ -176,7 +176,7 @@ const GoogleathonPage = () => {
 						}}  
 						target="_blank" 
 						rel="noopener noreferrer" >
-						Register Now
+						Registeration Closed - Stay Tuned for the Next Event
 						</a>
 					</Typography>
 				</Container>

@@ -4,6 +4,10 @@ import Brand from '@/assets/graphics/logo_clouds.png';
 import { ErrorBoundary, HeroHeader, GoogleathonHero } from '@/components/client';
 import { FAQ } from '@/components/client';
 import faq from '@/data/GoogleathonFAQ.json';
+import Sponsor1 from '@/assets/notgpl/snsce_logo.svg';
+import Image from 'next/image';
+
+
 
 
 const day1 = [
@@ -179,6 +183,34 @@ const GoogleathonPage = () => {
 						Registeration Closed - Stay Tuned for the Next Event
 						</a>
 					</Typography>
+				</Container>
+			</section>
+
+
+			{/* sponsors */}
+			<section id="sponsors">
+				<Container sx={{ py: 9 }} maxWidth="md" container spacing={3}>
+				<Typography
+					color="text.primary"
+					component="h2"
+					fontWeight="bold"
+					lineHeight="2.5em"
+					variant="h4"
+				>
+					Our Sponsors
+				</Typography>
+				</Container>
+				<Container sx={{ py: 4 }} maxWidth="md" container spacing={2}>
+				<Grid container spacing={3}>
+				<Image
+					src={Sponsor1}
+					alt="SNSCE Logo"
+					draggable="false"
+					width={600}
+					height={200}
+				/>
+					{/* Add more sponsor images here */}
+				</Grid>
 				</Container>
 			</section>
 

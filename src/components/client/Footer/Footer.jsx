@@ -92,7 +92,7 @@ export const Footer = () => {
 					<ul className="links-flex" style={{ paddingTop: '1em', flexGrow: 1 }}>
 						<FooterLink
 							className="link"
-							href="https://github.com/utmgdsc/website/issues/new/choose"
+							href="https://github.com/gdscsnsce/website/issues/new/choose"
 							external
 						>
 							Improve this page on GitHub

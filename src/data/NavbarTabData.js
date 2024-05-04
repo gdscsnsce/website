@@ -39,5 +39,9 @@ export const pages = [
 	{
 		name: 'Googleathon',
 		path: '/googleathon',
+	},
+	{
+		name: 'Gen AI Training',
+		path: '/coralflow',
 	}
 ];

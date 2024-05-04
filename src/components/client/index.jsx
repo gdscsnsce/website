@@ -15,6 +15,7 @@ export { Footer } from './Footer/Footer';
 export { HeroHeader } from './HeroHeader/HeroHeader';
 export { HomepageHero } from './HomepageHero/HomepageHero';
 export { GoogleathonHero } from './GoogleathonHero/GoogleathonHero';
+export { CoralflowHero } from './CoralflowHero/CoralflowHero';
 export { ImageLinkCard } from './ImageLinkCard/ImageLinkCard';
 export { InfoCard } from './InfoCard/InfoCard';
 export { Navbar } from './Navbar/Navbar';

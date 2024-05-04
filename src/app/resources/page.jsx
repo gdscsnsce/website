@@ -5,6 +5,9 @@ import { FAQ, ImageLinkCard } from '@/components/client';
 import faq from '@/data/faq.json';
 import bannerImage from '@/assets/notgpl/googleathon.jpg';
 import gdscLogo from '@/assets/notgpl/GDSC_SNSCE_logo.jpeg';
+import MLLogo from '@/assets/notgpl/ml_google_logo.png';
+import LearnAndroidLogo from '@/assets/notgpl/learn_android.png';
+import LearnWebLogo from '@/assets/notgpl/learn_web.png';
 
 import { HeroLayout } from '@/layouts/HeroLayout';
 
@@ -36,6 +39,33 @@ const ResourcesPage = () => {
 						href="/googleathon"
 						height="auto"
 						image={bannerImage} />
+				</Grid>
+				<Grid item>
+					<ImageLinkCard
+						title="TensorFlow"
+						description="Learn about TensorFlow with Google!"
+						alt="TensorFlow with Google."
+						href="https://codelabs.developers.google.com/?cat=TensorFlow"
+						height="auto"
+						image={MLLogo} />
+				</Grid>
+				<Grid item>
+					<ImageLinkCard
+						title="Android Development"
+						description="Learn about Android Development with Google!"
+						alt="Android Development with Google."
+						href="https://codelabs.developers.google.com/?product=android"
+						height="auto"
+						image={LearnAndroidLogo} />
+				</Grid>
+				<Grid item>
+					<ImageLinkCard
+						title="Web Development"
+						description="Learn about Web Development with Google!"
+						alt="Web Development with Google."
+						href="https://codelabs.developers.google.com/?category=web"
+						height="auto"
+						image={LearnWebLogo} />
 				</Grid>
 				{/* <Grid item>
 <ImageLinkCard
